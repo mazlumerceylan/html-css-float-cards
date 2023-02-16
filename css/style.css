@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
+
 h1{
+  padding-bottom: 30px;
   font-family: font-family: 'Rubik', sans-serif;
 }
 
@@ -16,51 +18,52 @@ h1{
 
 .rettangoli{
   width: 80%;
-  text-align: center;
   margin: 30px auto;
+  background-color: red;
+  color: white;
+}
+
+.rettangoli div{
+  height: 100px;
+  width: 285px;
+  margin: 20px 10px;
+  color: white;
+  background-color: red;
+  float: left;
 }
 
 
-.marco{
-  height: 100px;
-  width: 250px;
-  margin: 20px 20px;
-  background-color: red;
+div img{
+  display: inline-block;
+  height: 100%;
   float: left;
 }
-.laura{
-  height: 100px;
-  width: 250px;
-  margin: 20px 20px;
-  background-color: red;
-  float: left;
+
+div .title-box{
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
-.giorgio{
-  height: 100px;
-  width: 250px;
-  margin: 20px 20px;
-  background-color: red;
-  float: left;
+
+div .mestiere{
+    display: inline-block;
+    font: size 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
 }
-.marta{
-  height: 100px;
-  width: 250px;
-  margin: 20px 20px;
-  background-color: red;
-  float: left;
+
+div .email{
+    display: inline-block;
+    font: size 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
 }
-.roberto{
-  height: 100px;
-  width: 250px;
-  margin: 20px 20px;
-  background-color: red;
-  float: left;
-}
-.daniela{
-  height: 100px;
-  width: 250px;
-  margin: 20px 20px;
-  background-color: red;
-  float: left;
-}
+
+
+
+
 
