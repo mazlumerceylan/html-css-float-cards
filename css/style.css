@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: font-family: 'Rubik', sans-serif;
+}
+
+body{
+  max-width: 1170px;
+  
+}
+
+.titolo{
+  background-color: white;
+  color: black;
+  margin: 25px 50px;
+  text-align: center;
+}
+
+.titolo p{
+  margin-top: 40px;
+  text-align: center;
+}
