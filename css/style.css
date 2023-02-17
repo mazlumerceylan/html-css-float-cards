@@ -5,6 +5,8 @@
 }
 
 
+
+
 h1{
   padding-bottom: 30px;
   font-family: font-family: 'Rubik', sans-serif;
@@ -21,11 +23,12 @@ h1{
   margin: 30px auto;
   background-color: red;
   color: white;
+  
 }
 
 .rettangoli div{
   height: 100px;
-  width: 285px;
+  width: 275px;
   margin: 20px 10px;
   color: white;
   background-color: red;
@@ -57,10 +60,9 @@ div .mestiere{
 
 div .email{
     display: inline-block;
-    font: size 10px;
     text-align: left;
-    padding-left: 10px;
-    padding-top: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
 }
 
 
